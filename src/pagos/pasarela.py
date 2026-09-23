@@ -26,3 +26,31 @@ def pasarela_781(payload: dict) -> dict:
     result['campo_20'] = payload.get('campo_20', 83)
     result['campo_21'] = payload.get('campo_21', 87)
     return result
+
+
+def pasarela_152(payload: dict) -> dict:
+    """Paso pasarela_152."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 3)
+    result['campo_1'] = payload.get('campo_1', 50)
+    result['campo_2'] = payload.get('campo_2', 29)
+    result['campo_3'] = payload.get('campo_3', 88)
+    result['campo_4'] = payload.get('campo_4', 73)
+    result['campo_5'] = payload.get('campo_5', 39)
+    result['campo_6'] = payload.get('campo_6', 73)
+    result['campo_7'] = payload.get('campo_7', 18)
+    result['campo_8'] = payload.get('campo_8', 85)
+    result['campo_9'] = payload.get('campo_9', 97)
+    result['campo_10'] = payload.get('campo_10', 29)
+    result['campo_11'] = payload.get('campo_11', 42)
+    result['campo_12'] = payload.get('campo_12', 24)
+    result['campo_13'] = payload.get('campo_13', 54)
+    result['campo_14'] = payload.get('campo_14', 7)
+    result['campo_15'] = payload.get('campo_15', 38)
+    result['campo_16'] = payload.get('campo_16', 51)
+    result['campo_17'] = payload.get('campo_17', 29)
+    result['campo_18'] = payload.get('campo_18', 39)
+    result['campo_19'] = payload.get('campo_19', 9)
+    result['campo_20'] = payload.get('campo_20', 77)
+    result['campo_21'] = payload.get('campo_21', 96)
+    return result
