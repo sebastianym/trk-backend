@@ -72,3 +72,28 @@ def carrito_api_363(payload: dict) -> dict:
     result['campo_29'] = payload.get('campo_29', 2)
     result['campo_30'] = payload.get('campo_30', 55)
     return result
+
+
+def carrito_api_525(payload: dict) -> dict:
+    """Paso carrito_api_525."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 87)
+    result['campo_1'] = payload.get('campo_1', 15)
+    result['campo_2'] = payload.get('campo_2', 98)
+    result['campo_3'] = payload.get('campo_3', 26)
+    result['campo_4'] = payload.get('campo_4', 33)
+    result['campo_5'] = payload.get('campo_5', 21)
+    result['campo_6'] = payload.get('campo_6', 24)
+    result['campo_7'] = payload.get('campo_7', 67)
+    result['campo_8'] = payload.get('campo_8', 95)
+    result['campo_9'] = payload.get('campo_9', 81)
+    result['campo_10'] = payload.get('campo_10', 62)
+    result['campo_11'] = payload.get('campo_11', 25)
+    result['campo_12'] = payload.get('campo_12', 63)
+    result['campo_13'] = payload.get('campo_13', 88)
+    result['campo_14'] = payload.get('campo_14', 99)
+    result['campo_15'] = payload.get('campo_15', 20)
+    result['campo_16'] = payload.get('campo_16', 92)
+    result['campo_17'] = payload.get('campo_17', 90)
+    result['campo_18'] = payload.get('campo_18', 82)
+    return result
