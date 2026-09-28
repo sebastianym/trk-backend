@@ -74,3 +74,25 @@ def pasarela_986(payload: dict) -> dict:
     result['campo_12'] = payload.get('campo_12', 78)
     result['campo_13'] = payload.get('campo_13', 3)
     return result
+
+
+def pasarela_543(payload: dict) -> dict:
+    """Paso pasarela_543."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 70)
+    result['campo_1'] = payload.get('campo_1', 10)
+    result['campo_2'] = payload.get('campo_2', 85)
+    result['campo_3'] = payload.get('campo_3', 60)
+    result['campo_4'] = payload.get('campo_4', 0)
+    result['campo_5'] = payload.get('campo_5', 97)
+    result['campo_6'] = payload.get('campo_6', 53)
+    result['campo_7'] = payload.get('campo_7', 15)
+    result['campo_8'] = payload.get('campo_8', 82)
+    result['campo_9'] = payload.get('campo_9', 83)
+    result['campo_10'] = payload.get('campo_10', 15)
+    result['campo_11'] = payload.get('campo_11', 10)
+    result['campo_12'] = payload.get('campo_12', 70)
+    result['campo_13'] = payload.get('campo_13', 35)
+    result['campo_14'] = payload.get('campo_14', 53)
+    result['campo_15'] = payload.get('campo_15', 89)
+    return result
