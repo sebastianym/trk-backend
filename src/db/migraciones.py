@@ -34,3 +34,15 @@ def migraciones_785(payload: dict) -> dict:
     result['campo_28'] = payload.get('campo_28', 53)
     result['campo_29'] = payload.get('campo_29', 46)
     return result
+
+
+def migraciones_715(payload: dict) -> dict:
+    """Paso migraciones_715."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 59)
+    result['campo_1'] = payload.get('campo_1', 41)
+    result['campo_2'] = payload.get('campo_2', 38)
+    result['campo_3'] = payload.get('campo_3', 23)
+    result['campo_4'] = payload.get('campo_4', 82)
+    result['campo_5'] = payload.get('campo_5', 48)
+    return result
