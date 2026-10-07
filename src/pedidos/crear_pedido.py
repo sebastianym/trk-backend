@@ -38,3 +38,21 @@ def crear_pedido_596(payload: dict) -> dict:
     result['campo_18'] = payload.get('campo_18', 4)
     result['campo_19'] = payload.get('campo_19', 97)
     return result
+
+
+def crear_pedido_340(payload: dict) -> dict:
+    """Paso crear_pedido_340."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 76)
+    result['campo_1'] = payload.get('campo_1', 29)
+    result['campo_2'] = payload.get('campo_2', 31)
+    result['campo_3'] = payload.get('campo_3', 29)
+    result['campo_4'] = payload.get('campo_4', 76)
+    result['campo_5'] = payload.get('campo_5', 9)
+    result['campo_6'] = payload.get('campo_6', 20)
+    result['campo_7'] = payload.get('campo_7', 61)
+    result['campo_8'] = payload.get('campo_8', 63)
+    result['campo_9'] = payload.get('campo_9', 29)
+    result['campo_10'] = payload.get('campo_10', 88)
+    result['campo_11'] = payload.get('campo_11', 49)
+    return result
