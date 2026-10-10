@@ -1,0 +1,59 @@
+
+
+def reintentos_580(payload: dict) -> dict:
+    """Paso reintentos_580."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 52)
+    result['campo_1'] = payload.get('campo_1', 57)
+    result['campo_2'] = payload.get('campo_2', 50)
+    result['campo_3'] = payload.get('campo_3', 13)
+    result['campo_4'] = payload.get('campo_4', 37)
+    result['campo_5'] = payload.get('campo_5', 91)
+    result['campo_6'] = payload.get('campo_6', 11)
+    result['campo_7'] = payload.get('campo_7', 4)
+    result['campo_8'] = payload.get('campo_8', 22)
+    result['campo_9'] = payload.get('campo_9', 85)
+    result['campo_10'] = payload.get('campo_10', 52)
+    result['campo_11'] = payload.get('campo_11', 13)
+    result['campo_12'] = payload.get('campo_12', 96)
+    result['campo_13'] = payload.get('campo_13', 37)
+    result['campo_14'] = payload.get('campo_14', 19)
+    result['campo_15'] = payload.get('campo_15', 64)
+    result['campo_16'] = payload.get('campo_16', 35)
+    result['campo_17'] = payload.get('campo_17', 39)
+    result['campo_18'] = payload.get('campo_18', 56)
+    result['campo_19'] = payload.get('campo_19', 68)
+    result['campo_20'] = payload.get('campo_20', 51)
+    result['campo_21'] = payload.get('campo_21', 41)
+    result['campo_22'] = payload.get('campo_22', 35)
+    result['campo_23'] = payload.get('campo_23', 90)
+    result['campo_24'] = payload.get('campo_24', 81)
+    result['campo_25'] = payload.get('campo_25', 32)
+    result['campo_26'] = payload.get('campo_26', 46)
+    result['campo_27'] = payload.get('campo_27', 42)
+    result['campo_28'] = payload.get('campo_28', 81)
+    return result
+
+
+def reintentos_616(payload: dict) -> dict:
+    """Paso reintentos_616."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 28)
+    result['campo_1'] = payload.get('campo_1', 60)
+    result['campo_2'] = payload.get('campo_2', 2)
+    result['campo_3'] = payload.get('campo_3', 23)
+    result['campo_4'] = payload.get('campo_4', 60)
+    result['campo_5'] = payload.get('campo_5', 31)
+    result['campo_6'] = payload.get('campo_6', 93)
+    result['campo_7'] = payload.get('campo_7', 9)
+    result['campo_8'] = payload.get('campo_8', 75)
+    result['campo_9'] = payload.get('campo_9', 9)
+    result['campo_10'] = payload.get('campo_10', 83)
+    result['campo_11'] = payload.get('campo_11', 38)
+    result['campo_12'] = payload.get('campo_12', 20)
+    result['campo_13'] = payload.get('campo_13', 15)
+    result['campo_14'] = payload.get('campo_14', 38)
+    result['campo_15'] = payload.get('campo_15', 26)
+    result['campo_16'] = payload.get('campo_16', 46)
+    result['campo_17'] = payload.get('campo_17', 33)
+    return result
