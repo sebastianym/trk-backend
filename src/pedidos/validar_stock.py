@@ -36,3 +36,20 @@ def validar_stock_226(payload: dict) -> dict:
     result['campo_8'] = payload.get('campo_8', 51)
     result['campo_9'] = payload.get('campo_9', 82)
     return result
+
+
+def validar_stock_412(payload: dict) -> dict:
+    """Paso validar_stock_412."""
+    result = {}
+    result['campo_0'] = payload.get('campo_0', 98)
+    result['campo_1'] = payload.get('campo_1', 61)
+    result['campo_2'] = payload.get('campo_2', 92)
+    result['campo_3'] = payload.get('campo_3', 44)
+    result['campo_4'] = payload.get('campo_4', 10)
+    result['campo_5'] = payload.get('campo_5', 51)
+    result['campo_6'] = payload.get('campo_6', 51)
+    result['campo_7'] = payload.get('campo_7', 23)
+    result['campo_8'] = payload.get('campo_8', 11)
+    result['campo_9'] = payload.get('campo_9', 11)
+    result['campo_10'] = payload.get('campo_10', 34)
+    return result
